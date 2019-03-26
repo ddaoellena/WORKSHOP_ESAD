@@ -1,3 +1,42 @@
-body{
-  /* background-color: blue; */
+/*
+* Main tags elements and text styles
+*/
+body{}
+h1{}
+p{}
+
+/*
+* Divs' styles wrapper and timeline
+*/
+.wrapper{
+  overflow: scroll;
+  width: 3500px;
+	height: 100%;
+	top:0;
+	left: 0;
+	margin: auto;
+  background-color: black;
+}
+
+.timeline{
+  height: 10px;
+  width: 3000px;
+  top: 75%;
+  left: 5%;
+  background-color: white;
+}
+
+.circle{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 30px;
+}
+/*
+* properties shared
+*/
+.fixed{
+  position: fixed;
 }
