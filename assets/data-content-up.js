@@ -137,3 +137,8 @@ var contentUp16 = {
   position : "",
   dataviz : false,
 }
+
+/*
+* ------------------ À PARTIR DE LÀ ------------------
+* ------------------- ANTICIPATION -------------------
+*/

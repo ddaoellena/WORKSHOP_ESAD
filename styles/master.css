@@ -46,9 +46,10 @@
 .nav-title{
   width: 25%;
   /* border: solid 1px black; */
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   line-height: 30px;
+  /* padding-left: 15%; */
 }
 .nav-dates{
   width: 70%;
