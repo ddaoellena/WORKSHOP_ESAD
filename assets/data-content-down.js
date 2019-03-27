@@ -1,25 +1,25 @@
 var contentBottom0 = {
-  titre : "",
-  date : "",
-  content : "",
+  titre : "Panneau publicitaire",
+  date : "1982",
+  content : "Le panneau publicitaire a été imaginé par Ridley Scott, il fait une première apparition dans le film : Blade Runner en 1982.",
   pic : "",
   position : "",
   dataviz : false,
 }
 
 var contentBottom1 = {
-  titre : "",
-  date : "",
-  content : "",
+  titre : "Hologramme publicitaire",
+  date : "1988",
+  content : "L’hologramme publicitaire a été imaginé par Katsuhiro Ōtomo. Il fait une première apparition dans le film d’animation Akira en 1988.",
   pic : "",
   position : "",
   dataviz : false,
 }
 
 var contentBottom2 = {
-  titre : "",
-  date : "",
-  content : "",
+  titre : "Panneau d’affichage volant",
+  date : "1989",
+  content : "Le panneau d’affichage volant a été imaginé par Robert Zemeckis dans Retour vers le futur 2 en 1989.",
   pic : "",
   position : "",
   dataviz : false,
