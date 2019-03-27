@@ -6,6 +6,22 @@ var contentBottom0 = {
   position : "",
   dataviz : false,
 }
+var contentBottom0 = {
+  titre : "Devanture Lumineuse",
+  date : "1982",
+  content : "Devanture lumineuse a été imaginé par Ridley Scott, il fait une première apparition dans le film : <span class='italic'>Blade Runner</span> en 1982.",
+  pic : "test2.png",
+  position : "",
+  dataviz : false,
+}
+var contentBottom0 = {
+  titre : "Affichage céleste",
+  date : "1982",
+  content : "L'affichage céleste a été imaginé par Ridley Scott, il fait une première apparition dans le film : <span class='italic'>Blade Runner</span> en 1982.",
+  pic : "test2.png",
+  position : "",
+  dataviz : false,
+}
 
 var contentBottom1 = {
   titre : "Hologramme publicitaire",
