@@ -1,31 +1,25 @@
 var contentUp0 = {
-<<<<<<< HEAD
   titre : "Invention de la publicité",
   date : "500 av. JC",
   content : "Les jarres vantant les mérites d’un homme politique en Grèce antique.",
   pic : "",
-=======
   titre : "Panneau publicitaire ",
   date : "1990",
   content : "Le panneau publicitaire a été mis en place dans les années 1990 à Time Square, New York. C’est le quartier où la concentration d’enseignes lumineuses est la plus haute.",
   pic : "test.jpg",
->>>>>>> 6e908c7dbbdcfcf763883016c0b6a468e29d49f3
   position : "",
   dataviz : false,
 }
 
 var contentUp1 = {
-<<<<<<< HEAD
   titre : "Les crieurs publics",
   date : "550",
   content : "Les décisions royales sont prononcées par un crieur public, formant la publicité de l’époque.",
   pic : "",
-=======
   titre : "Hologramme publicitaire ",
   date : "2010",
   content : "L’hologramme publicitaire a été mis en place en 2010, par la société Kino-Mo, sous la forme d’un ventilateur qui affiche un hologramme.",
   pic : "test3.jpg",
->>>>>>> 6e908c7dbbdcfcf763883016c0b6a468e29d49f3
   position : "",
   dataviz : false,
 }
