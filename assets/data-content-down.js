@@ -2,7 +2,7 @@ var contentBottom0 = {
   titre : "Panneau publicitaire",
   date : "1982",
   content : "Le panneau publicitaire a été imaginé par Ridley Scott, il fait une première apparition dans le film : Blade Runner en 1982.",
-  pic : "",
+  pic : "test2.png",
   position : "",
   dataviz : false,
 }
@@ -11,7 +11,7 @@ var contentBottom1 = {
   titre : "Hologramme publicitaire",
   date : "1988",
   content : "L’hologramme publicitaire a été imaginé par Katsuhiro Ōtomo. Il fait une première apparition dans le film d’animation Akira en 1988.",
-  pic : "",
+  pic : "test4.gif",
   position : "",
   dataviz : false,
 }

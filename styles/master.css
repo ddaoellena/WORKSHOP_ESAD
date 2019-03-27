@@ -69,11 +69,14 @@
   margin-left: 30px;
   margin-right: 200px;
 }
+.bounding-rect-div{
+  display: inline-block;
+}
 .timeline-dot-wrapper{
   display: inline-block;
   margin-right: 250px;
   position: relative;
-  height: 500px;
+  height: 200px;
 }
 .timeline-dot-wrapper-up{
   left: -10px;
@@ -95,6 +98,12 @@
   position: relative;
   top: 490px;
 }
+.img-timeline{
+  position: absolute;
+  width: 200px;
+  top: 150px;
+}
+
 /*
 * end horizontal scroll
 */
