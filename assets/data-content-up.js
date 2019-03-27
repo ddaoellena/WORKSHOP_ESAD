@@ -34,7 +34,7 @@ var contentUp3 = {
 }
 var contentUp4 = {
   titre : "Démocratisation de l’affiche",
-  date : "XIXe siècle",
+  date : "XIXᵉ siècle",
   content : "Toulouse Lautrec et Leonetto Cappiello y contribuent grandement en simplifiant, chacun à leur manière, les formes et les couleurs afin de rendre les affiches plus attirantes.",
   pic : "",
   position : "",
@@ -137,6 +137,3 @@ var contentUp16 = {
   position : "",
   dataviz : false,
 }
-
-
-

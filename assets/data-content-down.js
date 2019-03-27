@@ -1,7 +1,7 @@
 var contentBottom0 = {
   titre : "Panneau publicitaire",
   date : "1982",
-  content : "Le panneau publicitaire a été imaginé par Ridley Scott, il fait une première apparition dans le film : Blade Runner en 1982.",
+  content : "Le panneau publicitaire a été imaginé par Ridley Scott, il fait une première apparition dans le film : <span class='italic'>Blade Runner</span> en 1982.",
   pic : "test2.png",
   position : "",
   dataviz : false,
