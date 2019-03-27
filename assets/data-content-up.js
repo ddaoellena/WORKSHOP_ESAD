@@ -50,6 +50,14 @@ var contentUp5 = {
 }
 var contentUp6 = {
   titre : "Première pub radio",
+  date : "1910",
+  content : "Citroën lance la première publicité radiophonique.",
+  pic : "",
+  position : "",
+  dataviz : false,
+}
+var contentUp6 = {
+  titre : "Première pub radio",
   date : "1923",
   content : "Citroën lance la première publicité radiophonique.",
   pic : "",
