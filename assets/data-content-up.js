@@ -43,7 +43,7 @@ var contentUp4 = {
 var contentUp5 = {
   titre : "Première publicité filmée",
   date : "1898",
-  content : "Félix Mesguisch installe une caméra projecteur, la première pub vidéo de l’Histoire.",
+  content : "Félix Mesguisch installe une caméra projecteur, <br> la première pub vidéo de l’Histoire.",
   pic : "",
   position : "",
   dataviz : false,
