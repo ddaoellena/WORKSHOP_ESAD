@@ -2,7 +2,7 @@ var contentUp0 = {
   titre : "Panneau publicitaire ",
   date : "1990",
   content : "Le panneau publicitaire a été mis en place dans les années 1990 à Time Square, New York. C’est le quartier où la concentration d’enseignes lumineuses est la plus haute.",
-  pic : "",
+  pic : "test.jpg",
   position : "",
   dataviz : false,
 }
@@ -11,7 +11,7 @@ var contentUp1 = {
   titre : "Hologramme publicitaire ",
   date : "2010",
   content : "L’hologramme publicitaire a été mis en place en 2010, par la société Kino-Mo, sous la forme d’un ventilateur qui affiche un hologramme.",
-  pic : "",
+  pic : "test3.jpg",
   position : "",
   dataviz : false,
 }

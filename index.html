@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="./styles/master.css">
     <link rel="stylesheet" href="./styles/reset.css">
   </head>
-  <body>
+  <body onscroll="addTextOnScroll()">
       <div class="nav-wrapper">
+        <div class="nav-title">
+
+        </div>
+
+        <div class="nav-dates">
+
+        </div>
       </div>
 
       <div class="wrapper fixed horizontal-scroll" id="wrapper">
         <div class="" id="inner-wrapper">
 
           <div class="timeline" id="timeline">
-
-            <!-- <div class="timeline-dot" id="timeline-start">
-            </div> -->
               <!-- Generate dots here -->
-            <!-- <div class="timeline-dot" id="timeline-end">
-            </div> -->
-
           </div>
 
         </div>
@@ -37,7 +38,7 @@
               <!-- Upper text goes here -->
             </p>
             <div class="date date-up">
-              <h1 class="date-text text">
+              <h1 class="date-text text" id="date-up-text">
                 <!-- Upper date goes here -->
               </h1>
             </div>
@@ -46,14 +47,14 @@
 
         <div class="left-div-bottom inline-block">
           <div class="left-div-text left-div-bottom-text">
-            <h2 class="left-title left-bottom-title text" id="left-up-title">
+            <h2 class="left-title left-bottom-title text white-text" id="left-bottom-title">
               <!-- Bottom title goes here -->
             </h2>
             <p class="left-bottom-text text white-text" id="left-bottom-text">
               <!-- Bottom text goes here -->
             </p>
             <div class="date date-up">
-              <h1 class="date-text text white-text">
+              <h1 class="date-text text white-text" id="date-bottom-text">
                 <!-- Bottom date goes here -->
               </h1>
             </div>
