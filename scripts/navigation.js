@@ -18,13 +18,13 @@ $(function() {
           // console.log(mousewheel);
         }
         for (var i = 0; i < boundingRectDiv.length; i++) {
-          if (boundingRectDiv[i].getBoundingClientRect().x < leftDivWrapperWidth * 1.5 == true) {
+          if (boundingRectDiv[i].getBoundingClientRect().x < leftDivWrapperWidth * 1.7 == true) {
             document.getElementById("left-up-title").innerHTML = contentsUp[i].titre;
             document.getElementById("left-up-text").innerHTML = contentsUp[i].content;
             document.getElementById("date-up-text").innerHTML = contentsUp[i].date;
             document.getElementsByClassName('timeline-dot-up')[i].style.backgroundColor = "#c4c4c4";
           }
-          if (boundingRectDiv[i].getBoundingClientRect().x < leftDivWrapperWidth * 1.3 == true) {
+          if (boundingRectDiv[i].getBoundingClientRect().x < leftDivWrapperWidth * 1.5 == true) {
             document.getElementById("left-bottom-title").innerHTML = contentsBottom[i].titre;
             document.getElementById("left-bottom-text").innerHTML = contentsBottom[i].content;
             document.getElementById("date-bottom-text").innerHTML = contentsBottom[i].date;
