@@ -1,4 +1,4 @@
-var content0 = {
+var contentUp0 = {
   titre : "",
   date : "",
   content : "",
@@ -7,7 +7,7 @@ var content0 = {
   dataviz : false,
 }
 
-var content1 = {
+var contentUp1 = {
   titre : "",
   date : "",
   content : "",
@@ -16,7 +16,7 @@ var content1 = {
   dataviz : false,
 }
 
-var content2 = {
+var contentUp2 = {
   titre : "",
   date : "",
   content : "",
@@ -25,7 +25,7 @@ var content2 = {
   dataviz : false,
 }
 
-var content3 = {
+var contentUp3 = {
   titre : "",
   date : "",
   content : "",
@@ -34,7 +34,7 @@ var content3 = {
   dataviz : false,
 }
 
-var content4 = {
+var contentUp4 = {
   titre : "",
   date : "",
   content : "",
@@ -43,7 +43,7 @@ var content4 = {
   dataviz : false,
 }
 
-var content5 = {
+var contentUp5 = {
   titre : "",
   date : "",
   content : "",
@@ -52,7 +52,7 @@ var content5 = {
   dataviz : false,
 }
 
-var content6 = {
+var contentUp6 = {
   titre : "",
   date : "",
   content : "",
@@ -61,11 +61,11 @@ var content6 = {
   dataviz : false,
 }
 
-var content7 = {
+var contentUp7 = {
   titre : "",
   date : "",
   content : "",
   pic : "",
-  po,
-  dataviz : false,sition : ""
+  position : "",
+  dataviz : false,
 }

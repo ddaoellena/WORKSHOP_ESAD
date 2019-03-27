@@ -1,5 +1,3 @@
-var texts = [text0, text1, text2, text3, text4];
+var contentsUp = [contentUp0, contentUp1, contentUp2, contentUp3, contentUp4, contentUp5, contentUp6, contentUp7];
 
-var pics = [pic0, pic1, pic2, pic3, pic4, pic5, pic6, pic7]
-
-var dates = []
+var contentsBottom = [contentBottom0, contentBottom1, contentBottom2, contentBottom3, contentBottom4, contentBottom5, contentBottom6, contentBottom7];
