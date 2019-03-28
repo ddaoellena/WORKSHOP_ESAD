@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="./styles/reset.css">
   </head>
   <body onscroll="addTextOnScroll()">
-      <div class="nav-wrapper">
+      <div class="nav-wrapper" id="nav-wrapper">
         <div class="nav-element nav-title">
-          <p class="text title-nav" id="nav-title">Histoire des supports publicitaires</p>
+          <p class="text title-nav text-nav" id="nav-title">Histoire des supports publicitaires</p>
         </div>
 
-        <div class="nav-element nav-dates">
+        <div class="nav-element nav-dates" id="nav-dates">
+          <a class="text link nav-link" href="#500jc" onclick="setTextOnAnchor()">500 av. J-C</a>
+          <a class="text link nav-link" href="#19siecle" onclick="setTextOnAnchor()">19e siècle</a>
+          <a class="text link nav-link" href="#1980" onclick="setTextOnAnchor()">1980</a>
+          <a class="text link nav-link" href="#1998" onclick="setTextOnAnchor()">1998</a>
+          <a class="text link change-link" id="demain" href="#demain">Demain →</a>
+          <a class="text link change-link" id="histoire" href="#500jc" onclick="displayHistoire()">← Histoire</a>
         </div>
       </div>
 
       <div class="wrapper fixed horizontal-scroll" id="wrapper">
-        <div class="" id="inner-wrapper">
+        <div class="inner-wrapper" id="inner-wrapper">
 
           <div class="timeline" id="timeline">
               <!-- Generate dots here -->
@@ -28,7 +34,7 @@
       </div>
 
       <div class="left-div-wrapper" id="left-div-wrapper">
-        <div class="left-div-up inline-block">
+        <div class="left-div-up inline-block" id="left-div-up">
           <div class="left-div-text left-div-up-text">
 
             <div class="date date-up">
@@ -36,7 +42,7 @@
                 <!-- Upper date goes here -->
               </h1>
             </div>
-            <div class="left-text-div left-up-text-div">
+            <div class="left-text-div left-up-text-div" id="left-up-text-div">
               <h2 class="left-title left-up-title text" id="left-up-title">
                 <!-- Upper title goes here -->
               </h2>
@@ -49,14 +55,14 @@
           </div>
         </div>
 
-        <div class="left-div-bottom inline-block">
+        <div class="left-div-bottom inline-block" id="left-div-bottom">
           <div class="left-div-text left-div-bottom-text">
             <div class="date date-up">
               <h1 class="date-text text white-text" id="date-bottom-text">
                 <!-- Bottom date goes here -->
               </h1>
             </div>
-            <div class="left-text-div left-bottom-text-div">
+            <div class="left-text-div left-bottom-text-div" id="left-bottom-text-div">
               <h2 class="left-title left-bottom-title text white-text" id="left-bottom-title">
                 <!-- Bottom title goes here -->
               </h2>
@@ -67,6 +73,8 @@
 
           </div>
         </div>
+      </div>
+      <div class="right-div-gradient" id="left-div-gradient">
       </div>
   </body>
 

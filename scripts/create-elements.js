@@ -4,6 +4,10 @@ var innerWrapperDiv = document.getElementById('inner-wrapper');
 var timelineDiv = document.getElementById('timeline');
 var leftUpText = document.getElementById('left-up-text');
 var leftBottomText = document.getElementById('left-bottom-text');
+var navWrapper = document.getElementById('nav-wrapper');
+var navTitle = document.getElementById('nav-title');
+var leftUpDiv = document.getElementById('left-div-up');
+var leftBottomDiv = document.getElementById('left-div-bottom');
 /* variables declaration ends */
 
 function generateDots(){
@@ -69,10 +73,52 @@ function addInitText(){
   document.getElementsByClassName('timeline-dot-bottom')[0].style.backgroundColor = "#11C6c6"
 }
 
+function initNav(){
+  var marginLeft = document.getElementById('left-up-text-div').getBoundingClientRect().x;
+  var lineHeight = document.getElementById('nav-wrapper').getBoundingClientRect().height;
+  document.getElementById('nav-title').style.marginLeft = marginLeft + "px";
+  document.getElementById('nav-title').style.lineHeight = lineHeight + "px";
+  document.getElementById('nav-dates').style.lineHeight = lineHeight + "px";
+}
+
+function addAnchorDiv(){
+  for (var i = 0; i < contentsUp.length; i++) {
+    var dotUp = document.getElementsByClassName('timeline-dot-up');
+    var leftDivWidth = document.getElementById('left-div-wrapper').getBoundingClientRect().width;
+    if (typeof contentsUp[i].id !== 'undefined') {
+      var anchorDiv = document.createElement("div");
+      anchorDiv.classList.add("anchor-div");
+      anchorDiv.id = contentsUp[i].id;
+      anchorDiv.style.top = dotUp[i].getBoundingClientRect().x + "px";
+      anchorDiv.style.left = dotUp[i].getBoundingClientRect().x - leftDivWidth +"px";
+      innerWrapperDiv.appendChild(anchorDiv);
+    }
+  }
+}
+
+function setTextOnAnchor(){
+  for (var i = 0; i < boundingRectDiv.length; i++) {
+    if (boundingRectDiv[i].getBoundingClientRect().x < leftDivWrapperWidth * 1.7 == true) {
+      document.getElementById("left-up-title").innerHTML = contentsUp[i].titre;
+      document.getElementById("left-up-text").innerHTML = contentsUp[i].content;
+      document.getElementById("date-up-text").innerHTML = contentsUp[i].date;
+      document.getElementsByClassName('timeline-dot-up')[i].style.backgroundColor = "#c4c4c4";
+    }
+    if (boundingRectDiv[i].getBoundingClientRect().x < leftDivWrapperWidth * 1.5 == true) {
+      document.getElementById("left-bottom-title").innerHTML = contentsBottom[i].titre;
+      document.getElementById("left-bottom-text").innerHTML = contentsBottom[i].content;
+      document.getElementById("date-bottom-text").innerHTML = contentsBottom[i].date;
+      document.getElementsByClassName('timeline-dot-bottom')[i].style.backgroundColor = "#11C6c6"
+    }
+  }
+}
+
 function initFunctions(){
   generateDots();
   addPic();
   addInitText();
+  initNav();
+  addAnchorDiv();
 }
 
 initFunctions();

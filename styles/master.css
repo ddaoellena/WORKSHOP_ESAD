@@ -22,6 +22,15 @@
 .title-nav, .nav-dates{
   font-weight: 700;
 }
+
+.link{
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link:visited{
+  color: black;
+}
 /*
 * nav-wrapper
 */
@@ -45,17 +54,27 @@
 }
 .nav-title{
   width: 25%;
-  /* border: solid 1px black; */
   text-align: left;
   vertical-align: middle;
-  line-height: 30px;
-  /* padding-left: 15%; */
 }
 .nav-dates{
   width: 70%;
   left: 25vw;
-  /* border: solid 1px black; */
 }
+.nav-link{
+    margin-right: 9.5vw;
+}
+
+.change-link{
+  position: absolute;
+  right: 0px;
+}
+#histoire{
+  color: #ffffff;
+  display:none;
+}
+
+
 /*
 * end nav-wrapper
 */
@@ -85,7 +104,7 @@
 .timeline{
   position: absolute;
   height: 1px;
-  width: 7000px;
+  width: 10000px;
   top: 52.5vh;
   left: 25vw;
   background-color: white;
@@ -123,10 +142,13 @@
 }
 .img-timeline{
   position: absolute;
-  width: 200px;
+  width: 20vw;
   top: 150px;
 }
-
+.anchor-div{
+  position: absolute;
+  /* top: 200px; */
+}
 /*
 * end horizontal scroll
 */
@@ -190,21 +212,20 @@
 * end bottom-div wrapper
 */
 
+
 /*
 * elements div
 */
-.circle{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+.right-div-gradient{
+  width: 1vw;
+  height: 95vh;
   background-color: white;
-  margin: 30px;
-}
-.pic{
-  height: 70px;
-  width: 70px;
-  background-color: white;
-  margin: 30px;
+  position: fixed;
+  bottom: 0px;
+  right: -0vw;
+  -webkit-box-shadow: -12px 0px 148px 86px rgba(0,0,0,0.5);
+  -moz-box-shadow: -12px 0px 148px 86px rgba(0,0,0,0.5);
+  box-shadow: -12px 0px 148px 86px rgba(0,0,0,0.5);
 }
 /*
 * properties shared
