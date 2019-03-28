@@ -57,6 +57,7 @@ function displayDemain(){
   document.getElementById('left-bottom-title').style.color = "#000000";
   document.getElementById('left-bottom-text').style.color = "#000000";
   timelineDiv.style.backgroundColor = '#000000';
+  document.getElementById('nav-title').innerHTML = "Anticipation et réalité";
 }
 
 function displayHistoire(){
@@ -73,4 +74,5 @@ function displayHistoire(){
   document.getElementById('left-bottom-title').style.color = "#ffffff";
   document.getElementById('left-bottom-text').style.color = "#ffffff";
   timelineDiv.style.backgroundColor = '#ffffff';
+  document.getElementById('nav-title').innerHTML = "Histoire des supports publicitaires";
 }

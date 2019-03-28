@@ -81,15 +81,30 @@ var contentBottom8 = {
 }
 
 var contentBottom9 = {
-
+  titre : "Panneau publicitaire céleste",
+  date : "1982",
+  content : "Le panneau publicitaire céleste a été représenté par Ridley Scott dans le film : <span class='italic'>Blade Runner</span> en 1982.",
+  pic : "Blade Runner (3).png",
+  position : "",
+  dataviz : false,
 }
 
 var contentBottom10 = {
-
+  titre : "Affichage céleste",
+  date : "1982",
+  content : "L'affichage céleste a été représenté par Ridley Scott dans le film : <span class='italic'>Blade Runner</span> en 1982.",
+  pic : "Blade Runner (2).png",
+  position : "",
+  dataviz : false,
 }
 
 var contentBottom11 = {
-
+  titre : "Hologramme publicitaire",
+  date : "1988",
+  content : "L’hologramme publicitaire a été représenté par Katsuhiro Ōtomo dans le film d’animation <span class='italic'>Akira</span> en 1988.",
+  pic : "Akira (3).png",
+  position : "",
+  dataviz : false,
 }
 
 var contentBottom12 = {

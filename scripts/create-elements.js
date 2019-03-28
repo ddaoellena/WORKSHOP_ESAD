@@ -89,7 +89,7 @@ function addAnchorDiv(){
       var anchorDiv = document.createElement("div");
       anchorDiv.classList.add("anchor-div");
       anchorDiv.id = contentsUp[i].id;
-      anchorDiv.style.top = dotUp[i].getBoundingClientRect().x + "px";
+      anchorDiv.style.top = dotUp[i].getBoundingClientRect().y + "px";
       anchorDiv.style.left = dotUp[i].getBoundingClientRect().x - leftDivWidth +"px";
       innerWrapperDiv.appendChild(anchorDiv);
     }

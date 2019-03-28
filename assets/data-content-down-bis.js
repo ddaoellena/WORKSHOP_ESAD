@@ -5,21 +5,11 @@ var contentBottom1 = {
 
 }
 var contentBottom2 = {
-  titre : "Affichage céleste",
-  date : "1982",
-  content : "L'affichage céleste a été représenté par Ridley Scott dans le film : <span class='italic'>Blade Runner</span> en 1982.",
-  pic : "Blade Runner (2).png",
-  position : "",
-  dataviz : false,
+
 }
 
 var contentBottom3 = {
-  titre : "Hologramme publicitaire",
-  date : "1988",
-  content : "L’hologramme publicitaire a été représenté par Katsuhiro Ōtomo dans le film d’animation <span class='italic'>Akira</span> en 1988.",
-  pic : "Akira (3).png",
-  position : "",
-  dataviz : false,
+  
 }
 
 var contentBottom4 = {

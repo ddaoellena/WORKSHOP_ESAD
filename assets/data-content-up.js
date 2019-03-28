@@ -75,20 +75,38 @@ var contentUp7 = {
 */
 
 var contentUp8 = {
-  titre : "Panneau publicitaire céleste",
-  date : "1982",
-  content : "Le panneau publicitaire céleste a été représenté par Ridley Scott dans le film : <span class='italic'>Blade Runner</span> en 1982.",
-  pic : "Blade Runner (3).png",
+  titre : "Panneau publicitaire",
+  date : "1990",
+  content : "Le panneau publicitaire a été mis en place dans les années 1990 à Time Square, New York. C’est le quartier où la concentration d’enseignes lumineuses est la plus haute.",
+  pic : "top_08.jpg",
   position : "",
   dataviz : false,
+  id : "demain"
 }
 
 var contentUp9 = {
+  titre : "Hologramme publicitaire",
+  date : "2010",
+  content : "L’hologramme publicitaire a été mis en place en 2010, par la société Kino-Mo, sous la forme d’un ventilateur qui affiche un hologramme.",
+  pic : "top_09.png",
+  position : "",
+  dataviz : false,
 }
 var contentUp10 = {
-
+  titre : "Panneau d’affichage volant",
+  date : "2014",
+  content : "Le panneau d’affichage volant a été mis en place par la société DroneCast en 2014",
+  pic : "top_10.jpg",
+  position : "",
+  dataviz : false,
 }
 var contentUp11 = {
+  titre : "",
+  date : "",
+  content : "",
+  pic : "top_11.png",
+  position : "",
+  dataviz : false,
 }
 var contentUp12 = {
 }
