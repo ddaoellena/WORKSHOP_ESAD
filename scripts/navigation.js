@@ -56,6 +56,7 @@ function displayDemain(){
   document.getElementById('date-bottom-text').style.color = "#000000";
   document.getElementById('left-bottom-title').style.color = "#000000";
   document.getElementById('left-bottom-text').style.color = "#000000";
+  timelineDiv.style.backgroundColor = '#000000';
 }
 
 function displayHistoire(){
@@ -71,4 +72,5 @@ function displayHistoire(){
   document.getElementById('date-bottom-text').style.color = "#ffffff";
   document.getElementById('left-bottom-title').style.color = "#ffffff";
   document.getElementById('left-bottom-text').style.color = "#ffffff";
+  timelineDiv.style.backgroundColor = '#ffffff';
 }
